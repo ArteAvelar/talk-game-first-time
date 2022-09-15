@@ -1,3 +1,21 @@
+body {
+  text-align: center;
+}
+
 h1 {
-  color: red;
+  color: #27296d;
+  text-align: center;
+}
+
+.game {
+  text-align: center;
+}
+
+.primary-button {
+  text-align: center;
+  color: #27296d;
+  background-color: #a393eb;
+  padding: 20px;
+  border: 1px solid #885df1;
+  border-radius: 20px;
 }
