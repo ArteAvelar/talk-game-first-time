@@ -4,9 +4,9 @@ function getRandomInt(max) {
 
 function handleClick(event) {
   event.preventDefault();
-  console.log(getRandomInt(sentence.length));
+  let sentenceNumber = getRandomInt(sentence.length);
   let h2 = document.querySelector("h2");
-  h2.innerHTML = sentence[2];
+  h2.innerHTML = sentence[sentenceNumber];
 }
 
 let element = document.querySelector("#newSentenceButton");
