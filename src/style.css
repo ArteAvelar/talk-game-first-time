@@ -7,6 +7,11 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 25px;
+  color: #27296d;
+}
+
 .game {
   text-align: center;
 }
@@ -18,4 +23,11 @@ h1 {
   padding: 20px;
   border: 1px solid #885df1;
   border-radius: 20px;
+  transition: all 200ms ease;
+  font-size: 30px;
+}
+
+button:hover {
+  color: #a393eb;
+  background-color: #27296d;
 }
