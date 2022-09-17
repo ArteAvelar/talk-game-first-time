@@ -25,7 +25,7 @@ let sentence = [
   "drank alcohol...",
   "was drunk...",
   "came home later than what my parents told me...",
-  "I didn't slept the hole night...",
+  "didn't slept the hole night...",
   "failed a test...",
   "won a medal (not a participation one)...",
   "climbed a mountain...",
@@ -69,4 +69,9 @@ let sentence = [
   "went to a concert...",
   "broke a bone...",
   "got into a fist fight...",
+  "had dinner with my in-laws...",
 ];
+
+let sentenceNumber = getRandomInt(sentence.length);
+let h2 = document.querySelector("h2");
+h2.innerHTML = sentence[sentenceNumber];
